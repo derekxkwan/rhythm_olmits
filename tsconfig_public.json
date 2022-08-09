@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "esModuleInterop": true,
+    "target": "es6",
+    "rootDir": "./tspublic",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "./public",
+    "baseUrl": "./",
+    "jsx": "react",
+    "paths": {
+        "vexflow":  ["node_modules/vexflow/entry/vexflow.ts"],
+        "vexflow/bravura":  ["node_modules/vexflow/entry/vexflow-bravura.ts"],
+            "vexflow/gonville": ["node_modules/vexflow/entry/vexflow-gonville.ts"],
+            "vexflow/petaluma": ["node_modules/vexflow/entry/vexflow-petaluma.ts"] 
+        }
+  },
+  "lib": ["es2015"],
+  "exclude": [
+    "node_modules",
+    "tsnode",
+    "tspublicbak",
+    "out"
+  ]
+}

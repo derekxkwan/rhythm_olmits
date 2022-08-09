@@ -1,0 +1,173 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    background-color: #d6f5ff;
+}
+
+
+.olmdurtitle, .seltitle {
+    font-size:1.15em;
+    font-weight: bold;
+}
+
+.title {
+    font-size:1.5em;
+}
+
+.scoredisp {
+    background-color: #ffffff;
+}
+
+.subtitle {
+    font-size:1.3em;
+}
+
+.bigview {
+    margin: 3px auto;
+    width = 100%;
+    padding: 0;
+    position: absolute;
+    visibility: visible;
+}
+
+#header{
+    margin:3px;
+    padding:10px;
+    border-style:solid;
+    background-color: #e8dcfa;
+    border-width:1px;
+    border-color:#000000;
+
+
+}
+
+.subheader {
+    margin:3px 3px 10px 3px;
+    padding:10px;
+    border-style: solid;
+    border-color:#000000;
+    border-width:1px;
+    background-color: #d7faf1;
+}
+
+#lk-manage {
+    padding:10px 0;
+}
+.belowthresh {
+    background-color: #ff9d94;
+}
+
+.abovethresh{
+    background-color: #fcd381;
+}
+
+.atmax {
+    background-color: #81fc9c;
+}
+
+.o0 {
+    font-weight: bold;
+    color: #3e8fc2;
+}
+
+.o1 {
+    font-weight: bold;
+    color: #8f46b8;
+}
+
+.o2 {
+    font-weight: bold;
+    color: #41b55a;
+}
+
+.o3 {
+    font-weight: bold;
+    color: #bf5a2e;
+}
+
+/* BEGIN CODE FROM https://www.w3docs.com/snippets/css/how-to-align-divs-side-by-side.html */
+.bigview2 {
+    margin: 0 auto;
+    width = 100%;
+    visibility: visible;
+}
+
+/* END CODE FROM https://www.w3docs.com/snippets/css/how-to-align-divs-side-by-side.html */
+
+.noview {
+    margin: 0 auto;
+    width = 95%;
+    position: absolute;
+    visibility: hidden;
+}
+
+.lkmview {
+    margin: 0 auto;
+    width = 95%;
+    position: absolute;
+    visibility: visible;
+}
+
+.lkmnoview {
+    margin: 0 auto;
+    width = 95%;
+    position: absolute;
+    visibility: hidden;
+
+}
+.olmskillview, .mtrsel_durbank {
+    border-color: #000000;
+    border-style: solid;
+    background-color: #fcfcf7;
+    border-width: 1px;
+}
+
+.viewsel {
+    background-color: #ffd5c4;
+    font-size:1.1em;
+}
+
+
+.subviewsel {
+    font-size:1.1em;
+    background-color:#f0d7fa;
+}
+
+.actbtn {
+    font-size:1.1em;
+    background-color: #b1fcc6;
+}
+.olmskillview {
+    padding:5px;
+}
+.mtrsel_durbank {
+    margin:10px;
+    padding:10px;
+}
+.btxt {
+    font-weight: bold;
+}
+.olmskillview {
+    padding: 3px;
+}
+.durtype_view {
+    width:25%;
+    padding: 10px;
+}
+
+.durbank_view {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mtrsel_durbank {
+    padding: 10px;
+    width: 50%;
+}
+
+#selbank {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}

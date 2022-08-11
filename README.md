@@ -15,6 +15,6 @@ Given an installed Node.js environment (if not installed, I suggest [nvm](https:
 ## Known Bugs
 The MacOS version tends to throw errors upon closing and the issue seems to lie with the `node-libpd` bindings as noted in [this issue thread](https://github.com/ircam-ismm/node-libpd/issues/3#issuecomment-1154899839) where the bindings throw segmentation faults.
 
-## Software References Resources
-In the code and also in `citations.md`
+## Other
+- Software related references are in the code and also in `citations.md`- The accompanying paper can be found [here](http://hdl.handle.net/1853/67085)
 
